@@ -1,0 +1,20 @@
+{
+  "name": "ngar",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/alemelomeza/ngar.git",
+  "author": "Alejandro Melo Meza <ale.melo.meza@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.13.0",
+    "axios": "^0.19.2",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
